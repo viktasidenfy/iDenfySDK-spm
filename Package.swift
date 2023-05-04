@@ -11,7 +11,7 @@ enum Checksums {
     static let iDenfySDKChecksum = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
     static let idenfycoreChecksum = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
     static let idenfyNFCReadingChecksum = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
-    static let OpenSSLChecksum = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
+    static let openSSLChecksum = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
 }
 
 let package = Package(
@@ -113,6 +113,6 @@ let package = Package(
         .binaryTarget(name: "idenfyNFCReading",
                       url: "https://s3.eu-west-1.amazonaws.com/sdk.builds/ios-sdk/\(version)/spm/IdenfySDK/idenfyNFCReading.zip", checksum: Checksums.idenfyNFCReadingChecksum),
         .binaryTarget(name: "OpenSSL",
-                      url: "https://s3.eu-west-1.amazonaws.com/sdk.builds/ios-sdk/\(version)/spm/IdenfySDK/OpenSSL.zip", checksum: Checksums.OpenSSLChecksum),
+                      url: "https://s3.eu-west-1.amazonaws.com/sdk.builds/ios-sdk/\(version)/spm/IdenfySDK/OpenSSL.zip", checksum: Checksums.openSSLChecksum),
     ]
 )
