@@ -3,13 +3,13 @@
 
 import PackageDescription
 
-let version = "2.2.1"
+let version = "2.2.2"
 
 enum Checksums {
-    static let iDenfyInternalLoggerChecksum = "895ab7d7e3d4d94c65886f15aa5efeea22720bcd45b9e5df5981387116b234fd"
-    static let idenfyviewsChecksum = "aac88bcb07efad4213c5068cf9a2a44118488dd44fae43145ded74aa2a9863fe"
-    static let iDenfySDKChecksum = "00d18a1b1375837143f44f3b2846e9303a43a5b4658db6b97369ca1fea969eb8"
-    static let idenfycoreChecksum = "bd39b0d701a7be8004bc722839bdc194b13a5ad9ef417f873dd3253c327f4882"
+    static let iDenfyInternalLoggerChecksum = "f187190efc79c949fbc7dbe1d4bea248467f07f3694340089d8837b30797644e"
+    static let idenfyviewsChecksum = "b50f0e95ef0e6377e4c450766c4793c47f7341656791a65a85b4f8ac6ad94144"
+    static let iDenfySDKChecksum = "5bb77a59da7ea9d31d6030e1f4951a40a797d3e11226995e21fdcd1defb1cd7d"
+    static let idenfycoreChecksum = "efc7bd55b29cb5044eb1fc1615af06a2cdbd4a5feb753c68d4eb19cbda15e815"
 }
 
 let package = Package(
